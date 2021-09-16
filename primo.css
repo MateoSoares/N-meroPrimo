@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  font: normal 20pt normal;
+  background-color: rgb(255, 17, 0);
+}
+
+select {
+  border-radius: 10px;
+  font: normal 15pt normal;
+  width: 200px;
+}
+
+section {
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.329);
+  text-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.229);
+}
+
+button {
+  border-radius: 10px;
+  background-color: orangered;
+  color: rgb(255, 217, 0);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.329);
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: rgb(255, 217, 0);
+  color: orangered;
+}
+
+button:focus {
+  background-color: rgb(167, 44, 0);
+  color: rgb(211, 179, 0);
+  box-shadow: 0px 0px 0px 0px transparent;
+}
+
+input {
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.329)
+}
+
+input:hover {
+  background-color: rgb(255, 255, 94);
+  border-radius: 10px;
+}
+
+input:focus {
+  background-color: rgb(255, 255, 0);
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 0px transparent;
+}
